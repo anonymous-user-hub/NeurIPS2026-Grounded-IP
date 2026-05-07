@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+checkpoints/
+
+# PyTorch Lightning
+lightning_logs/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints
+#*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+venv/
+env/
+ENV/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.log
+
+# Zipped files
+**.zip
+**.gz
+**.tar
+**.rar
+**.7z
+**.bz2
+**.tgz
+
+[Ss]aved/*
+[Dd]ata/*
+[Pp]retrain/*
+![Pp]retrain/*.py
+![Pp]retrain/*.ipynb
+
+[Jj]ob/*
+![Jj]ob/*.job
+![Jj]ob/*.slurm
+![Jj]ob/*.sh
+./wandb/*
+
+pynb/*
+!pynb/*.py
+!pynb/*.ipynb
+!pynb/*.sh
+!pynb/*.md
+
